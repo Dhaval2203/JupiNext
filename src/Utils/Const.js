@@ -196,7 +196,7 @@ export const contactItems = [{
     description: 'info@dsquareinfotech.com',
 }];
 
-export function DSquareIcon({ size = 64 }) {
+export function JupiNextIcon({ size = 64 }) {
     return (
         <svg
             width={size}
@@ -211,50 +211,50 @@ export function DSquareIcon({ size = 64 }) {
                 height="28"
                 rx="6"
                 fill="none"
-                stroke={primaryColor}
-                strokeWidth="2.2"
+                stroke="#0ea5a4"
+                strokeWidth="3.5"
             />
 
-            <path d="M26 18 V12 L24 10" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="24" y1="10" x2="22" y2="8" stroke={accentColor} strokeWidth="2" />
-            <circle cx="21" cy="7" r="2" fill={secondaryColor} />
+            <path d="M26 18 V12 L24 10" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="24" y1="10" x2="22" y2="8" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="21" cy="7" r="2.6" fill="#ef4444" />
 
-            <path d="M38 18 V12 L40 10" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="40" y1="10" x2="42" y2="8" stroke={accentColor} strokeWidth="2" />
-            <circle cx="43" cy="7" r="2" fill={secondaryColor} />
+            <path d="M38 18 V12 L40 10" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="40" y1="10" x2="42" y2="8" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="43" cy="7" r="2.6" fill="#ef4444" />
 
-            <path d="M26 46 V52 L24 54" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="24" y1="54" x2="22" y2="56" stroke={accentColor} strokeWidth="2" />
-            <circle cx="21" cy="57" r="2" fill={secondaryColor} />
+            <path d="M26 46 V52 L24 54" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="24" y1="54" x2="22" y2="56" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="21" cy="57" r="2.6" fill="#ef4444" />
 
-            <path d="M38 46 V52 L40 54" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="40" y1="54" x2="42" y2="56" stroke={accentColor} strokeWidth="2" />
-            <circle cx="43" cy="57" r="2" fill={secondaryColor} />
+            <path d="M38 46 V52 L40 54" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="40" y1="54" x2="42" y2="56" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="43" cy="57" r="2.6" fill="#ef4444" />
 
-            <path d="M18 26 H12 L10 24" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="10" y1="24" x2="8" y2="22" stroke={accentColor} strokeWidth="2" />
-            <circle cx="7" cy="21" r="2" fill={secondaryColor} />
+            <path d="M18 26 H12 L10 24" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="10" y1="24" x2="8" y2="22" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="7" cy="21" r="2.6" fill="#ef4444" />
 
-            <path d="M18 38 H12 L10 40" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="10" y1="40" x2="8" y2="42" stroke={accentColor} strokeWidth="2" />
-            <circle cx="7" cy="43" r="2" fill={secondaryColor} />
+            <path d="M18 38 H12 L10 40" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="10" y1="40" x2="8" y2="42" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="7" cy="43" r="2.6" fill="#ef4444" />
 
-            <path d="M46 26 H52 L54 24" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="54" y1="24" x2="56" y2="22" stroke={accentColor} strokeWidth="2" />
-            <circle cx="57" cy="21" r="2" fill={secondaryColor} />
+            <path d="M46 26 H52 L54 24" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="54" y1="24" x2="56" y2="22" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="57" cy="21" r="2.6" fill="#ef4444" />
 
-            <path d="M46 38 H52 L54 40" stroke={primaryColor} strokeWidth="2" fill="none" />
-            <line x1="54" y1="40" x2="56" y2="42" stroke={accentColor} strokeWidth="2" />
-            <circle cx="57" cy="43" r="2" fill={secondaryColor} />
+            <path d="M46 38 H52 L54 40" stroke="#0ea5a4" strokeWidth="3" fill="none" />
+            <line x1="54" y1="40" x2="56" y2="42" stroke="#1e40af" strokeWidth="3" />
+            <circle cx="57" cy="43" r="2.6" fill="#ef4444" />
 
             <text
-                x="35%"
-                y="60%"
+                x="50%"
+                y="52%"
                 textAnchor="middle"
                 dominantBaseline="middle"
-                fontSize="12"
-                fontWeight="800"
-                fill={secondaryColor}
+                fontSize="13"
+                fontWeight="900"
+                fill="#ef4444"
                 fontFamily="Arial, Helvetica, sans-serif"
             >
                 JN
@@ -262,7 +262,6 @@ export function DSquareIcon({ size = 64 }) {
         </svg>
     );
 }
-
 
 export function DSquareIconForCareerPage() {
     return (
