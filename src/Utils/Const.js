@@ -193,7 +193,7 @@ export const contactItems = [{
 }, {
     icon: <MailOutlined style={{ fontSize: 24, color: whiteColor }} />,
     title: 'Email Address',
-    description: 'info@dsquareinfotech.com',
+    description: 'info@jupinext.com',
 }];
 
 export function JupiNextIcon({ size = 64 }) {
