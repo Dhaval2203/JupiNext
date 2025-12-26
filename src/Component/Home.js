@@ -17,10 +17,12 @@ import Hero from './Hero';
 import Services from './Services';
 import SoftwareDevelopmentProcess from './SoftwareDevelopmentProcess';
 import Technologies from './Technologies';
+import useTitle from '@/Utils/useTitle';
 
 const { Content } = Layout;
 
 export default function HomePage() {
+    useTitle()
     const [showScrollTop, setShowScrollTop] = useState(false);
     const [scrollPercent, setScrollPercent] = useState(0);
 
